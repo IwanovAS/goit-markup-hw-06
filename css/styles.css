@@ -12,6 +12,7 @@
 }
 
 body {
+  display: grid;
   font-family: var(--primary-font);
   color: var(--color-font);
   background-color: var(--background-color);
@@ -526,7 +527,9 @@ button {
 }
 
 .subscribe-form-field {
-  margin-right: 23px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .subscribe-form-input {
@@ -536,6 +539,7 @@ button {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
   padding: 0 16px;
+  margin-right: 24px;
   outline: none;
   transition: var(--transition-func);
   background-color: transparent;
@@ -556,24 +560,17 @@ button {
   color: #ffffff;
 }
 
-.subscribe-form-box-btn {
-  display: inline-block;
-  position: relative;
-}
-
 .subscribe-form-icon {
-  position: absolute;
-  top: 50%;
-  left: 117px;
-  transform: translateY(-50%);
   height: 24px;
+  margin-left: 16px;
 }
 .subscribe-form-btn {
   display: flex;
+  justify-content: center;
+  align-items: center;
   min-width: 165px;
   height: 40px;
   padding: 8px 24px;
-  align-items: center;
 }
 
 /* ====== Portfolio ====== */
